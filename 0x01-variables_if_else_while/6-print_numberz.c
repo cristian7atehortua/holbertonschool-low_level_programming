@@ -1,10 +1,9 @@
-#include <stdio.h>
+}#include <stdio.h>
 /**
- * main - while practice
- *
- * Return: 0
- */
-
+* main - while practice
+*
+* Return: 0
+*/
 
 int main(void)
 {
