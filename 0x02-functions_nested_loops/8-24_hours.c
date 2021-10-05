@@ -8,6 +8,7 @@
 void jack_bauer(void)
 {
 	int h, m, hi, hd, mi, md;
+
 	for (h = 0; h < 24; h++)
 	{
 		hi = h / 10;
