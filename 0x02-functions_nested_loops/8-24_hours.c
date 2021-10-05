@@ -1,12 +1,15 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * jack_bauer - Every minute of a day.
  * Return: no return
  */
+
 void jack_bauer(void)
 {
 int h, m, hi, hd, mi, md;
+
 for (h = 0; h < 24; h++)
 {
 hi = h / 10;
