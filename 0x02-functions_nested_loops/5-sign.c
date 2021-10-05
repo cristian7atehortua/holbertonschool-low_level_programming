@@ -1,25 +1,26 @@
 #include "main.h"
 /**
- *print_sign - Prints the sign of a number
- *@n: The character to compere
- *Return: 1 if c is alphabetic character
- *On error: 0 is returned
+ * print_sign- prints the sign of a number
+ * @n: return value variable
+ *
+ * Return: n
  */
 int print_sign(int n)
 {
-int ret = 0;
 if (n > 0)
 {
-ret = 1;
+n = 1;
 _putchar('+');
-} else if (n == 0)
+}
+else if (n < 0)
 {
-ret = 0;
-_putchar('0');
-} else
-{
-ret = -1;
+n = -1;
 _putchar('-');
 }
-return (ret);
+else if (n == 0)
+{
+n = 0;
+_putchar('0');
+}
+return (n);
 }
