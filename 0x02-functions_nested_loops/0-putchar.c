@@ -1,16 +1,23 @@
-#include "0-putchar.c"
+/*
+ * File: 0-putchar.c
+ *
+ */
+#include "_putchar.h"
 /**
- * main - Prints.
- * Return: 0
+ * main - prints _putchar, followed by a new line.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-int i = 0;
-char p[] = "_putchar\n";
-while (i <= 9)
-{
-_putchar(p[i]);
-i++;
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
