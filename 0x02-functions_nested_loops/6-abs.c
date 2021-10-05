@@ -1,15 +1,18 @@
 #include "main.h"
 /**
- * _abs- absolute value of an integer
- * @r: return variable
+ * _abs - Print the value absolute.
+ * @n:  integer.
  *
- * Return: r
+ * Return: the value absolute of integer.
  */
-int _abs(int r)
+int _abs(int n)
 {
-if (r < 0)
+if (n >= 0)
 {
-r = r * (-1);
+return (n);
 }
-return (r);
+else
+{
+return (-n);
+}
 }
