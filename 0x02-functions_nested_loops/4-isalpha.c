@@ -1,25 +1,25 @@
 #include "main.h"
 /**
- /**
- * _isalpha -  checks for alphabetic character
- * @c: check
- * Return: 1 if c is a letter, lowercase or uppercase, 0 otherwise
- *
+ *_isalpha - checks for alphabetic character
+ *@c: The character to compere
+ *Return: 1 if c is alphabetic character
+ *On error: 0 is returned
+ */
 int _isalpha(int c)
 {
 char abc = 'a';
 char abc_may = 'A';
 int ret = 0;
-
-	while (abc <= 'z')
+while (abc <= 'z')
 {
-	if (c == abc)
-		{
-			ret = 1;		}
-	abc++;
+if (c == abc)
+{
+ret = 1;
 }
-	while (abc_may <= 'Z')
-	{
+abc++;
+}
+while (abc_may <= 'Z')
+{
 if (c == abc_may)
 {
 ret = 1;
