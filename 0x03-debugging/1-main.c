@@ -1,7 +1,7 @@
 #include <studio.h>
 
 /**
-* main - infinite loop
+* main - infinite loop.
 * Return: 0
 */
 
