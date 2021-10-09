@@ -1,8 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - prime factor of 612852475143
- * Return: 0
+ * main - print 
+ *
+ * Return: Always 0.
  */
 
 int main(void)
