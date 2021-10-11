@@ -1,7 +1,7 @@
 #include "main.h"
 #include<string.h>
 /**
- *_strcpy - write a function 
+ *_strcpy - write a function
  *@dest: pointer char void
  *@src: pointer char source
  *Return: dest data
