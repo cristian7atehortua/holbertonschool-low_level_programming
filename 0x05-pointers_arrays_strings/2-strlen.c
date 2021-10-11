@@ -1,9 +1,9 @@
 #include"main.h"
 #include<string.h>
 /**
- *  *_strlen - return size of array char
- *   *@s: pointer integer
- *    *Return: size of array char
+ *  *_strlen - return size of array char.
+ *  *@s: pointer integer
+ *  *Return: size of array char
  */
 
 int  _strlen(char *s)
