@@ -1,36 +1,26 @@
 #include"main.h"
 /**
- * cap_string - capitalizes all words of a string
- * @s: string
- * Return: string
+ * _strcat - Concatenate to strings.
+ * @dest: destination
+ * @src: source
+ * Return: a pointer to the resulting string dest
  */
 
-char *cap_string(char *s)
+char *_strcat(char *dest, char *src)
 {
-int i = 0;
+	int i = 0;
+	int j = 0;
 
-while (s[i])
-{
-while (!(s[i] >= 'a' && s[i] <= 'z'))
-i++;
+	while (dest[i] != '\0')
+		i++;
 
-if (s[i - 1] == ' ' ||
-s[i - 1] == '\t' ||
-s[i - 1] == '\n' ||
-s[i - 1] == ',' ||
-s[i - 1] == ';' ||
-s[i - 1] == '.' ||
-s[i - 1] == '!' ||
-s[i - 1] == '?' ||
-s[i - 1] == '"' ||
-s[i - 1] == '(' ||
-s[i - 1] == ')' ||
-s[i - 1] == '{' ||
-s[i - 1] == '}' || i == 0)
-s[i] = s[i] - 32;
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	dest[i] = '\0';
 
-i++;
-}
-
-return (s);
+	return (dest);
 }
